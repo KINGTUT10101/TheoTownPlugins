@@ -1,0 +1,11 @@
+{
+  "id":"freightTrain.manifest",  // Unique id for the plugin, you can put anything here, as always it doesn't repeat with other ones
+  "version":1.2, // Plugin version code, you can put any number here
+  "title":"Freight Train",   // Title for the plugin, pretty self-explanatory
+  "text":"Adds a red freight train that hauls gravel, coal, grain, and cars. Looks nice in industrial areas.", //Description of the Plugin. Optional
+  "author":"Kingtut 101/Kulche/22Alpha/mdk_813", //The maker of the plugin (Yourself, basically)
+  "thumbnail":"tramstopkt.png", // Thumbnail image file, like in the plugin store. Optional
+  "category":false,   // Specify whether to show a category for the plugin. Optional
+  "url":"https://sites.google.com/view/retrocitycenter/home?authuser=0",  //Specify where the plugin can be downloaded from. Optional (816+)
+  "multiplayer":true  //Specify whether the plugin can be used in online mode. True by default (833+)
+}

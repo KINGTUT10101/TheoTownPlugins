@@ -1,0 +1,1 @@
+[{"author":"Kingtut 101","draw ground":true,"frames":[{"bmp":"1x1leftwall.png"},{"bmp":"1x1rightwall.png"}],"height":1,"id":"noisewall.plugin","influence environment":0,"influence noise":-50,"influence park":0,"monthly price":4,"needs road":false,"power":0,"price":250,"text":"Use this to block incoming noise.","title":"Noise Wall","type":"park","water":0,"width":1}]

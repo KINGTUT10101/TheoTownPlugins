@@ -1,0 +1,11 @@
+{
+  "id":"AmericanDateFormatManifest.kt101",
+  "version":1.1,
+  "title":"American Date Format",
+  "text":"Changes the date to the American format (MM/DD/YY).",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

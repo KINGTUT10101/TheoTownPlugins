@@ -1,0 +1,1 @@
+[{"author":"Kingtut 101","frames":[{"bmp":"gang.png"}],"habitants":1,"height":1,"id":"gang.kt101","influence noise":5,"requirement":{"requirements":[{"data":{"id":"rcistarter.kt101"},"type":"BUILDING"}]},"text":"An old house taken over by gang members.  Evict them to keep your other inhabitants happy.","title":"Gang Area","type":"residential","width":1}]

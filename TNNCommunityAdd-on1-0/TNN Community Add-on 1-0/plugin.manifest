@@ -1,0 +1,12 @@
+{
+  "id": "1aa82d337ed5d76c7d8b1c22f7e1113e",  // Unique id for the plugin, you can put anything here, as always it doesn't repeat with other ones
+  "version": 1, // Plugin version code, you can put any number here
+  "title": "TNN Community Add-On",   // Title for the plugin, pretty self-explanatory
+  "text": "A small add-on for the Theo News Network plug-in. It adds some headlines made by Kingtut 101 and the TheoTown community.\n\nNOTE:\nYou do not need the original Theo News Network plug-in to use this add-on. This add-on can run without it.", //Description of the Plugin. Optional
+  "author": "KINGTUT10101", //The maker of the plugin (Yourself, basically)
+  "thumbnail": "preview.png", // Thumbnail image file, like in the plugin store. Optional
+  "category": false,   // Specify whether to show a category for the plugin. Optional
+  "url": "https://forum.theotown.com/",  //Specify where the plugin can be downloaded from. Optional
+  "multiplayer": true,  //Specify whether the plugin can be used in online mode. True by default
+  "min version": 0  // Minimum required version of the game to run the plugin. Optional
+}

@@ -1,0 +1,8 @@
+[
+	{
+		"type": "script",
+		"frames": [],
+		"id": "ExampleAddon.TN", // Make sure you use a unique ID
+		"script": "ExampleCode.lua" // Update this if you change the lua file's name
+	}
+]

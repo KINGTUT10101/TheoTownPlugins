@@ -1,0 +1,1 @@
+[{"override":true,"id":"$anim_blank00","type":"animation","frames":[{"bmp":"frames.png","w":32,"h":16,"handle y":8},{"bmp":"frames.png","x":32,"w":16,"h":16,"handle y":8},{"bmp":"frames.png","x":48,"w":16,"h":16,"handle x":-16,"handle y":8}]}]

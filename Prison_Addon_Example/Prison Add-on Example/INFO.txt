@@ -1,0 +1,11 @@
+--TheoTown Prison Expansion by Kingtut 101--
+
+ADD-ON INFO:
+-Make sure the add-on is loaded after the prison expansion is loaded
+-Make sure you use "override": true in the json
+-Make sure the ID is correct
+-To add info to the descriptions, like the number of cells available, look at the variables listed on the Prison Expansion's info page.
+
+Feel free to use this as a template
+
+Remember, extra code isnt required to make an add-on for the Prison Expansion.  All you need to is to override the correct ID.

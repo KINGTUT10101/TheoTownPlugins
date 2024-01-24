@@ -1,0 +1,11 @@
+{
+  "id":"AutomaticWinterRemasteredManifest.kt101",
+  "version":1.0,
+  "title":"Automatic Winter Remastered",
+  "text":"Includes some settings for automatically changing the game to winter mode. The winter customization panel can be found in the plug-in settings tab. Also, these options can be changed on a city-by-city basis. Finally, do not use the winter options in the gameplay tab with this plug-in installed.",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

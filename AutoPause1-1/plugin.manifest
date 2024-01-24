@@ -1,0 +1,11 @@
+{
+  "id":"AutoPause.kt101",
+  "version":1.1,
+  "title":"AutoPause",
+  "text":"Automatically pauses the game when you enter a map. This can be disabled in the settings.",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

@@ -1,0 +1,11 @@
+{
+  "id":"RefreshGUITool.kt101",
+  "version":1.0,
+  "title":"Refresh GUI Tool",
+  "text":"Adds a button that will refresh the GUI when pressed. Useful for quickly refreshing the GUI without having to resize your window or exit the city. Requires version 1.9.70 or better.",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

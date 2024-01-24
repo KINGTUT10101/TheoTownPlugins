@@ -1,0 +1,8 @@
+[
+	{
+		"type": "script",
+		"frames": [],
+		"id": "SimCityAddon.TN",
+		"script": "SimCityCode.lua"
+	}
+]

@@ -1,0 +1,551 @@
+[
+	{
+		"frames": [
+			{
+				"bmp": "giant.png",
+				"count": 3,
+				"h": 45,
+				"w": 32
+			}
+		],
+		"random fun": [
+			{
+				"actions": [
+					{
+						"type": "remove"
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0
+					},
+					{
+						"type": "notify",
+						"id": "giantnotif.theo",
+						"z": 1
+					}
+				],
+				"p": 0
+			},
+			{
+				"actions": [
+					{
+						"type": "remove"
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"x": 1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"x": -1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"y": 1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"y": -1
+					},
+					{
+						"type": "notify",
+						"id": "giantnotif.theo",
+						"z": 1
+					}
+				],
+				"p": 0
+			}
+		],
+		"fun": [
+			{
+				"condition": {
+					"frame": 1,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "remove"
+					}
+				]
+			},
+			{
+				"condition": {
+					"frame": 2,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"frame": 0,
+						"type": "frame"
+					}
+				]
+			},
+			{
+				"condition": {
+					"frame": 0,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"x": 1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"x": 1
+					},
+					{
+						"type": "remove"
+					}
+				],
+				"double check": false
+			},
+			{
+				"condition": {
+					"frame": 0,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"x": -1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"x": -1
+					},
+					{
+						"type": "remove"
+					}
+				],
+				"double check": false
+			},
+			{
+				"condition": {
+					"frame": 0,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"y": 1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"y": 1
+					},
+					{
+						"type": "remove"
+					}
+				],
+				"double check": false
+			},
+			{
+				"condition": {
+					"frame": 0,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"y": -1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"y": -1
+					},
+					{
+						"type": "remove"
+					}
+				],
+				"double check": false
+			},
+			{
+				"condition": {
+					"frame": 0,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"frame": 2,
+						"type": "frame"
+					}
+				],
+				"p": 0.3
+			},
+			{
+				"condition": {
+					"frame": 2,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"x": 1
+					},
+					{
+						"type": "remove",
+						"x": -1
+					},
+					{
+						"type": "remove",
+						"y": 1
+					},
+					{
+						"type": "remove",
+						"y": -1
+					},
+					{
+						"type": "remove",
+						"y": 1,
+						"x": 1
+					},
+					{
+						"type": "remove",
+						"y": -1,
+						"x": -1
+					},
+					{
+						"type": "remove",
+						"y": -1,
+						"x": 1
+					},
+					{
+						"type": "remove",
+						"y": 1,
+						"x": -1
+					}
+				]
+			},
+			{
+				"condition": {
+					"frame": 2,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "disaster",
+						"id": "earthquake"
+					}
+				],
+				"p": 0.001
+			},
+			{
+				"condition": {
+					"frame": 2,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"type": "set",
+						"id": "weatherTime",
+						"code": 622697
+					},
+					{
+						"type": "build",
+						"id": "lightning.kt101",
+						"frame": 0,
+						"x": 1
+					},
+					{
+						"type": "build",
+						"id": "lightning.kt101",
+						"frame": 0,
+						"x": -1
+					},
+					{
+						"type": "build",
+						"id": "lightning.kt101",
+						"frame": 0,
+						"y": 1
+					},
+					{
+						"type": "build",
+						"id": "lightning.kt101",
+						"frame": 0,
+						"y": -1
+					}
+				],
+				"p": 0.01
+			},
+			{
+				"condition": {
+					"frame": 0,
+					"type": "building"
+				},
+				"actions": [
+					{
+						"frame": 1,
+						"type": "frame"
+					}
+				],
+				"p": 0.2
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"frame": 0,
+							"type": "building"
+						},
+						{
+							"inner": [
+								{
+									"type": "building",
+									"id": "wishing_well.kt101"
+								}
+							],
+							"type": "rect",
+							"y": -3,
+							"x": 0,
+							"w": 15,
+							"h": 7,
+							"min": 1,
+							"max": 9999
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"x": 1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"x": 1,
+						"frame": 0
+					},
+					{
+						"type": "remove"
+					}
+				]
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"frame": 0,
+							"type": "building"
+						},
+						{
+							"inner": [
+								{
+									"type": "building",
+									"id": "wishing_well.kt101"
+								}
+							],
+							"type": "rect",
+							"y": -3,
+							"x": -15,
+							"w": 15,
+							"h": 7,
+							"min": 1,
+							"max": 9999
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"x": -1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"x": -1,
+						"frame": 0
+					},
+					{
+						"type": "remove"
+					}
+				]
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"frame": 0,
+							"type": "building"
+						},
+						{
+							"inner": [
+								{
+									"type": "building",
+									"id": "wishing_well.kt101"
+								}
+							],
+							"type": "rect",
+							"y": 0,
+							"x": -3,
+							"w": 7,
+							"h": 15,
+							"min": 1,
+							"max": 9999
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"y": 1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"y": 1,
+						"frame": 0
+					},
+					{
+						"type": "remove"
+					}
+				]
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"frame": 0,
+							"type": "building"
+						},
+						{
+							"inner": [
+								{
+									"type": "building",
+									"id": "wishing_well.kt101"
+								}
+							],
+							"type": "rect",
+							"y": -15,
+							"x": -3,
+							"w": 7,
+							"h": 15,
+							"min": 1,
+							"max": 9999
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"y": -1
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"y": -1,
+						"frame": 0
+					},
+					{
+						"type": "remove"
+					}
+				]
+			}
+		],
+		"height": 1,
+		"id": "giantdisaster.theo",
+		"text": "A giant that will destroy anything in its path!  It will wander around randomly until it despawns or finds a nearby village.  Once they spot a village, they'll try to make their way towards it to destroy it!",
+		"title": "Giant",
+		"type": "terrain",
+		"width": 1,
+		"draw ground": true,
+		"category": "$cat_disaster00",
+		"build time": 0,
+		"needs road": false,
+		"water": 0,
+		"power": 0,
+		"influence radioactive": 5,
+		"pickable": false,
+		"destroyable": false,
+		"removable": false,
+		"moveable": false,
+		"hidden": true
+	},
+	{
+		"frames": [
+			{
+				"x": 1,
+				"y": 1,
+				"h": 1,
+				"w": 1
+			}
+		],
+		"preview frames": [
+			{
+				"bmp": "giant_icon.png",
+				"h": 26,
+				"w": 26
+			}
+		],
+		"fun": [
+			{
+				"actions": [
+					{
+						"type": "remove",
+						"ignore": true
+					},
+					{
+						"type": "build",
+						"id": "giantdisaster.theo",
+						"frame": 0,
+						"ignore": true
+					},
+					{
+						"type": "notify",
+						"id": "giantnotif.theo",
+						"z": 1
+					}
+				]
+			}
+		],
+		"height": 1,
+		"id": "giantdisasterspawner.theo",
+		"text": "A giant that will destroy anything in its path!  It will wander around randomly until it despawns or finds a nearby village.  Once they spot a village, they'll try to make their way towards it to destroy it!",
+		"title": "Giant",
+		"type": "terrain",
+		"width": 1,
+		"draw ground": true,
+		"category": "$cat_disaster00",
+		"build time": 0,
+		"needs road": false,
+		"water": 0,
+		"power": 0,
+		"pickable": false,
+		"destroyable": false,
+		"removable": false,
+		"moveable": false
+	},
+	{
+		"id": "giantnotif.theo",
+		"type": "notification",
+		"text": "Giants have been sighted on the horizon!",
+		"frames": [
+			{
+				"steal": "$anim_people_source01",
+				"frame": 20
+			}
+		],
+		"important": true
+	}
+]

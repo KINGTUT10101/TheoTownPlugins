@@ -1,0 +1,1 @@
+[{"id":"smalldarkparks.kt101","type":"park","width":2,"height":2,"frames":[{"h":40,"w":64,"count":"4","bmp":"smalldarkparks.png"}],"author":"Kingtut 101 and Theo (Original Textures)","title":"Small Dark Park","text":"A park with dark concrete.","price":2000,"monthly price":4,"needs road":false,"requirement":{"requirements":[{"data":{"id":"$rnk_village_medium"},"type":"RANK"}]}}]

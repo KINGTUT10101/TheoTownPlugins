@@ -1,0 +1,11 @@
+{
+  "id":"tramway.manifest",  // Unique id for the plugin, you can put anything here, as always it doesn't repeat with other ones
+  "version":3.3, // Plugin version code, you can put any number here
+  "title":"Tramway",   // Title for the plugin, pretty self-explanatory
+  "text":"Adds two train systems: the tram and the tramway. The trams are single-car trains that use a special one-rail system. The tramways are longer passenger trains that are compatable with the vanilla train system and all train plug-ins. They use the double-rail tracks.", //Description of the Plugin. Optional
+  "author":"Kingtut 101", //The maker of the plugin (Yourself, basically)
+  "thumbnail":"trainicon.png", // Thumbnail image file, like in the plugin store. Optional
+  "category":false,   // Specify whether to show a category for the plugin. Optional
+  "url":"https://forum.theotown.com/",  //Specify where the plugin can be downloaded from. Optional (816+)
+  "multiplayer":true  //Specify whether the plugin can be used in online mode. True by default (833+)
+}

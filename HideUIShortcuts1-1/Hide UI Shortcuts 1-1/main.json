@@ -1,0 +1,15 @@
+[
+  {
+    "author": "Kingtut 101",
+    "id": "HideUIShortcuts.kt101",
+    "type": "script",
+    "frames":[],
+    "script": "#LuaWrapper",
+    "meta":{
+      "luawrapper":{
+        "script":"myscript.lua",
+        "dev": false
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+[{"active":true,"id":"alley.kt101","type":"road","author":"Kingtut 101","level":0,"width":1,"height":1,"speed":1.5,"price":100,"monthly price":2,"title":"Alley","text":"A small, paved road with a sidewalk.","frames":[{"bmp":"alley.png","count":16,"w":32}],"draw ground":true}]

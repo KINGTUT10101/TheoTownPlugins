@@ -1,0 +1,5 @@
+[{"override":true,"id":"$anim_blank00","type":"animation","frames":[{"bmp":"SkyBackground.png","w":32,"h":16,"handle y":8},{"bmp":"SkyBackground.png","x":32,"w":16,"h":16,"handle y":8},{"bmp":"SkyBackground.png","x":48,"w":16,"h":16,"handle x":-16,"handle y":8}]}]handle y":8},
+      {"bmp":"background_colors_josh_#ffffff.png","x":48,"w":16,"h":16,"handle x":-16,"handle y":8}
+    ]
+  }
+]

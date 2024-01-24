@@ -1,0 +1,12 @@
+[
+  {
+    "min version":1978,
+    "id":"$water00",
+    "inherit":true,
+    "type":"ground",
+    "frames":[
+      {"bmp":"water.png","w":32,"handle y":4,"count": 32}
+    ],
+    "map color":{"r":39,"g":168,"b":193}
+  }
+]

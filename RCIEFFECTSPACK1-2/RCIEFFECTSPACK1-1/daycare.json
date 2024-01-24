@@ -1,0 +1,1 @@
+[{"author":"Kingtut 101","frames":[{"bmp":"daycare.png"}],"height":2,"id":"daycare.kt101","influence education low":20,"influence sport":25,"level":2,"provide aspect education low":20,"requirement":{"requirements":[{"data":{"id":"rcistarter.kt101"},"type":"BUILDING"}]},"text":"A place for parents to drop off their young ones.","title":"Daycare","type":"residential","width":2}]

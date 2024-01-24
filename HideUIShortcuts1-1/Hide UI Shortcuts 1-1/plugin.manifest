@@ -1,0 +1,11 @@
+{
+  "id":"HideUIShortcuts.kt101",
+  "version":1.1,
+  "title":"Hide UI Shortcuts",
+  "text":"Adds a sidebar button and keyboard shortcut (/) for hiding the UI. You can also hide the button by typing Button On or Button Off in the console",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

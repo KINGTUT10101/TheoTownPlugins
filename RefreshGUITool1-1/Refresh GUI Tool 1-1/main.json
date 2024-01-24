@@ -1,0 +1,16 @@
+[
+  {
+    "once":true,
+    "id":"RefreshGUIToolkt101",
+    "type":"script",
+    "frames":[],
+    "strict lua":true,
+    "script":"#LuaWrapper",
+    "meta":{
+      "luawrapper":{
+        "script":"myscript.lua",
+        "dev":false
+      }
+    }
+  }
+]

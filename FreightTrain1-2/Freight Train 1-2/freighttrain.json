@@ -1,0 +1,227 @@
+[
+	{
+		"author": "Kingtut 101, Kulche",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frc1tramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "frc1tram.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101, Kulche",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frc2tramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "frc2tram.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101, Kulche",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frc3tramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "frc3tram.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101, Kulche",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frc4tramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "frc4tram.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101, mdk_813",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frc5tramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "frc5tram.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101, 22Alpha",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frtramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "frtram.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"$car_null00",
+			"frc1tram.kt101",
+			"$car_null00",
+			"frc1tram.kt101",
+			"$car_null00",
+			"frc4tram.kt101",
+			"$car_null00",
+			"frc4tram.kt101",
+			"$car_null00",
+			"frc1tram.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101, 22Alpha",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frtramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "fr2tram.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"$car_null00",
+			"frc1tram.kt101",
+			"$car_null00",
+			"frc2tram.kt101",
+			"$car_null00",
+			"frc2tram.kt101",
+			"$car_null00",
+			"frc3tram.kt101",
+			"$car_null00",
+			"frc1tram.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101, 22Alpha",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "frtramkt.png",
+				"count": 4,
+				"h": 22,
+				"w": 25
+			}
+		],
+		"id": "fr3tram.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"$car_null00",
+			"frc3tram.kt101",
+			"$car_null00",
+			"frc5tram.kt101",
+			"$car_null00",
+			"frc3tram.kt101",
+			"$car_null00",
+			"frc5tram.kt101",
+			"$car_null00",
+			"frc2tram.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"build time": 0,
+		"car spawner": [
+			{
+				"targets": [
+					"frtramstation.kt101"
+				],
+				"cars": [
+					"frtram.kt101",
+					"fr2tram.kt101",
+					"fr3tram.kt101"
+				],
+				"count": 1,
+				"radius": 75
+			}
+		],
+		"frames": [
+			{
+				"bmp": "tramstopkt.png",
+				"h": 19,
+				"w": 32
+			}
+		],
+		"height": 1,
+		"id": "frtramstation.kt101",
+		"influence park": 0,
+		"monthly price": 20,
+		"needs road": false,
+		"price": 700,
+		"rotation aware": false,
+		"targets": [
+			"frtramstation.kt101"
+		],
+		"text": "A place for people to ship their goods by train.",
+		"title": "Cargo Train Station",
+		"type": "railway station",
+		"width": 1,
+		"capacity": 10,
+		"influence passenger train": 1,
+		"ordinal": 60,
+		"category": "traincategory.kt101",
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,8 @@
+[
+	{
+		"type": "script",
+		"frames": [],
+		"id": "CommunityAddon.TN", // Make sure you use a unique ID
+		"script": "CommunityAddonCode.lua" // Update this if you change the lua file's name
+	}
+]

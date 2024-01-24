@@ -1,0 +1,14 @@
+[{
+	"id": "cell4.addon",
+	"override": true,
+	"category": "$cat_prison00",
+	"type": "police",
+	"width": 1,
+	"height": 1,
+	"frames": [{
+		"bmp": "example.png"
+	}],
+	"influence police": 0,
+	"title": "Add-on Example",
+	"text": "Use this example as a reference for your own prison add-ons.  \n\nThis example provides 150 cell spaces.\n\nCells Available: ${fPJ}/${fCO}"
+}]

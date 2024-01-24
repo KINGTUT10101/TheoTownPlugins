@@ -1,0 +1,1 @@
+[{"id":"NetherPortal.MC","type":"decoration","width":1,"height":1,"frames":[{"bmp":"NetherPortal.png","w":32,"count":10}],"build time":0,"author":"Kingtut 101","title":"Nether Portal","text":"A mysterious purple portal that'll take you to the Nether.","price":50,"needs road":false,"water":0,"power":0,"price factor":0,"category":"MainCategory.MC","ordinal":161,"draw ground":true}]

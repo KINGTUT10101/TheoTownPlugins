@@ -1,0 +1,10 @@
+[
+  {
+    "id": "AmericanDateFormat.kt101",
+	"author": "Kingtut 101 and ian`",
+    "type": "translation",
+    "*": {
+      "game_date": "%2$02d/%1$02d/%3$02d"
+    }
+  }
+]

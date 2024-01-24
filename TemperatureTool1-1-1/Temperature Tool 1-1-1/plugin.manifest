@@ -1,0 +1,11 @@
+{
+  "id":"TemperatureToolManifest.kt101",
+  "version":1.1,
+  "title":"Temperature Tool",
+  "text":"A GUI plug-in that displays your city's temperature. The temperature will vary depending on the date, time, and season. There is also a customization panel where you can adjust the temperature based on your city's location and hemisphere. You can find this panel in the settings menu. Tapping on the temperature tool will also bring up an info tab.",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

@@ -1,0 +1,216 @@
+[
+	{
+		"allow bus": false,
+		"author": "KoalaGuy",
+		"auto join": false,
+		"flag normal": false,
+		"flag tram": false,
+		"flag train": false,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "+tramrailkoala.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "tramrails.decal.koala00",
+		"influence transportation": 5,
+		"level": 5,
+		"draw ground": true,
+		"monthly price": 5,
+		"price": 120,
+		"speed": 3.5,
+		"text": "Used to guide your trams.",
+		"title": "Tram Rails",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag tram": true,
+			"flag train": true,
+			"flag user0": true
+		},
+		"ordinal": 71,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train1.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train2.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train3.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train4.kt101"
+					}
+				],
+				"p": 0.0001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	},
+	{
+		"allow bus": false,
+		"author": "KoalaGuy",
+		"auto join": false,
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"flag user0": false,
+		"frames": [
+			{
+				"bmp": "tramrailkoala.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "tramrail.decal.koala00",
+		"influence transportation": 5,
+		"level": 5,
+		"draw ground": true,
+		"monthly price": 5,
+		"price": 120,
+		"speed": 3.5,
+		"text": "Used to guide your trams.",
+		"title": "Tramway Rails",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag tram": true,
+			"flag train": true,
+			"flag user0": true
+		},
+		"ordinal": 72,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train1.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train2.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train3.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train4.kt101"
+					}
+				],
+				"p": 0.0001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	}
+]

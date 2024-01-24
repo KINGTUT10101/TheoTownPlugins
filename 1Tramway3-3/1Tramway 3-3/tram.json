@@ -1,0 +1,418 @@
+[
+	{
+		"frames": [
+			{
+				"bmp": "trainicon.png"
+			}
+		],
+		"id": "traincategory.kt101",
+		"ordinal": 3,
+		"title": "Train System",
+		"type": "category",
+		"category": "$cat_transport00",
+		"override": false
+	},
+	{
+		"id": "+train4.kt101",
+		"type": "sound",
+		"file": "train4.m4a",
+		"volume": 0.4
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "tramkt.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "+tram.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "tramkt2.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "+tram2.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "tramkt3.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "+tram3.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "tramkt4.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "+tram4.kt101",
+		"type": "car",
+		"v2": true
+	},
+	{
+		"author": "Kingtut 101",
+		"build time": 0,
+		"car spawner": [
+			{
+				"targets": [
+					"+tramstation.kt101"
+				],
+				"cars": [
+					"+tram.kt101",
+					"+tram2.kt101",
+					"+tram3.kt101",
+					"+tram4.kt101"
+				],
+				"count": 2,
+				"radius": 40
+			}
+		],
+		"frames": [
+			{
+				"bmp": "+tramstopkt.png",
+				"count": 4,
+				"h": 19,
+				"w": 32
+			},
+			{
+				"bmp": "+tramstoproadkt.png",
+				"count": 4,
+				"h": 19,
+				"w": 32
+			}
+		],
+		"height": 1,
+		"id": "+tramstation.kt101",
+		"influence park": 0,
+		"monthly price": 5,
+		"needs road": false,
+		"price": 120,
+		"rotation aware": true,
+		"targets": [
+			"+tramstation.kt101"
+		],
+		"text": "A place for people to get on the train. Only works with the single-line rails.",
+		"title": "Tram Stop",
+		"type": "railway station",
+		"width": 1,
+		"capacity": 12,
+		"influence passenger train": 20,
+		"ordinal": 1,
+		"category": "traincategory.kt101",
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 5
+					}
+				}
+			]
+		}
+	},
+	{
+		"allow bus": false,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "+trambridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 120,
+		"flag normal": false,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "+tramrail.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "+tramrails.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 3,
+		"price": 60,
+		"speed": 2.5,
+		"text": "Used to guide your trams. Only works with the small trams.",
+		"title": "Tram Rails (Concrete)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag user0": true,
+			"flag tram": true
+		},
+		"ordinal": 2,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "+train4.kt101"
+					}
+				],
+				"p": 0.001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 5
+					}
+				}
+			]
+		}
+	},
+	{
+		"allow bus": false,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "+tramroadbridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 120,
+		"flag normal": false,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "+tramroad.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "+tramrailroad.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 3,
+		"price": 60,
+		"speed": 2.5,
+		"text": "Used to guide your trams. Only works with the small trams.",
+		"title": "Tram Rails (Asphalt)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag user0": true,
+			"flag tram": true
+		},
+		"ordinal": 4,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "+train4.kt101"
+					}
+				],
+				"p": 0.001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 5
+					}
+				}
+			]
+		}
+	},
+	{
+		"allow bus": true,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "+trambridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 200,
+		"flag normal": true,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "+tramrail.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "+tramrail/car.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 4,
+		"price": 75,
+		"speed": 2.7,
+		"text": "Used to guide your trams. Normal cars can also use this road. Only works with the small trams.",
+		"title": "Tram/Car Road (Concrete)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag user0": true,
+			"flag tram": true
+		},
+		"ordinal": 3,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "+train4.kt101"
+					}
+				],
+				"p": 0.001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 6
+					}
+				}
+			]
+		}
+	},
+	{
+		"allow bus": true,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "+tramroadbridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 200,
+		"flag normal": true,
+		"flag user0": true,
+		"frames": [
+			{
+				"bmp": "+tramroad.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "+tramrailroad/car.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 4,
+		"price": 75,
+		"speed": 2.7,
+		"text": "Used to guide your trams. Normal cars can also use this road. Only works with the small trams.",
+		"title": "Tram/Car Road (Asphalt)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag user0": true,
+			"flag tram": true
+		},
+		"ordinal": 5,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "+train4.kt101"
+					}
+				],
+				"p": 0.001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 6
+					}
+				}
+			]
+		}
+	}
+]

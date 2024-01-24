@@ -1,0 +1,9 @@
+{
+    "id": "PrimitiveZoneStandalone.kt101",
+    "title": "Primitive Zone Standalone",
+    "text": "Adds a new zone type to the game that doesn't require power or water. Make sure to disable this plug-in if you plan on using the Nature Pack.",
+    "version": "1.0",
+    "author": "Kingtut 101",
+    "url": "https://sites.google.com/view/retrocitycenter/theotown/plug-ins/zones#h.fj2nn3w2zm88",
+    "thumbnail": "thumbnail.png"
+}

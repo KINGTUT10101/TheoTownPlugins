@@ -1,0 +1,1 @@
+[{"author":"Kingtut 101","border frames":[{"count":16,"h":16,"w":32,"x":0,"y":32}],"edge border frames":[{"count":32,"h":32,"w":16,"x":0,"y":144}],"edge frames":[{"count":12,"h":48,"w":16,"x":0,"y":96}],"frames":[{"bmp":"stoneground.png"}],"height":1,"id":"stoneground.kt101","text":"Hard, gray ground for your cities.","title":"Stone","type":"ground","water":false,"width":1}]

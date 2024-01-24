@@ -1,0 +1,21 @@
+[
+  {
+    "min version":1978,  // Don't forget to specify when uploading to store
+    "category": "MainCategory.MC",
+	"ordinal": 210,
+	"id":"void.MC",
+    "type":"ground",
+	"title": "Void",
+	"text": "It's completely black. Does it have a bottom?",
+    "water":true,        // It's not really water, but that's how it works
+    "frames":[
+      {"bmp":"Void.png","w":32,"handle y":4,"count": 1}
+    ],
+    "edge frames":[{"x":192,"y":96,"w":16,"h":48,"count":2}],
+    "dark water color":{"r":255,"g":255,"b":255}, // Prevent it form being dark dependent on depth
+    "light water color":{"r":0,"g":0,"b":0}, // Prevent it from being lighter near the coast
+    "water speed":0,   // Slower animation seems appropriate
+    "light":false,        // Let it glow in the night
+    "map color":{"r":0,"g":0,"b":0}  // Let's use an appropriate color in the minimap
+  }
+]

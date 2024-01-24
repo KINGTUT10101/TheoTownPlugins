@@ -1,0 +1,80 @@
+[
+	{
+		"id": "trainstation.kt101",
+		"frames": [
+			{
+				"bmp": "blank.png"
+			}
+		],
+		"type": "road decoration",
+		"title": "Train Station",
+		"text": "Use it to slow down trains at a train station.",
+		"price": 175,
+		"speed": 0.5,
+		"preview frames": [
+			{
+				"bmp": "stoppreview.png",
+				"w": 64,
+				"h": 32
+			}
+		],
+		"ordinal": 20,
+		"category": "traincategory.kt101",
+		"required flag normal": false,
+		"required flag train": true,
+		"line tool": true,
+		"required flag tram": true
+	},
+	{
+		"id": "trainstationfast.kt101",
+		"frames": [
+			{
+				"bmp": "blank.png"
+			}
+		],
+		"type": "road decoration",
+		"title": "Train Expressway",
+		"text": "Use this on tram rails to make trains go faster.",
+		"price": 200,
+		"speed": 1.6,
+		"preview frames": [
+			{
+				"bmp": "fastpreview.png",
+				"w": 64,
+				"h": 32
+			}
+		],
+		"ordinal": 21,
+		"category": "traincategory.kt101",
+		"required flag normal": false,
+		"line tool": true,
+		"required flag train": true,
+		"required flag tram": true
+	},
+	{
+		"id": "trainstationslow.kt101",
+		"frames": [
+			{
+				"bmp": "blank.png"
+			}
+		],
+		"type": "road decoration",
+		"title": "Slower Train Station",
+		"text": "Use it to slow down trains at a train station.",
+		"price": 175,
+		"speed": 0.2,
+		"preview frames": [
+			{
+				"bmp": "stoppreviewslow.png",
+				"w": 64,
+				"h": 32
+			}
+		],
+		"ordinal": 21,
+		"category": "traincategory.kt101",
+		"required flag normal": false,
+		"line tool": true,
+		"required flag train": true,
+		"required flag tram": true
+	}
+]

@@ -1,0 +1,101 @@
+[
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramkt3.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "whttram3.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"whttram3.kt101",
+			"whttram3.kt101",
+			"whttram3.kt101",
+			"whttram3.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramkt2.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "whttram4.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"whttram4.kt101",
+			"whttram4.kt101",
+			"whttram4.kt101",
+			"whttram4.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"build time": 0,
+		"car spawner": [
+			{
+				"targets": [
+					"whttramstation.kt101"
+				],
+				"cars": [
+					"whttram3.kt101",
+					"whttram4.kt101"
+				],
+				"count": 2,
+				"radius": 65
+			}
+		],
+		"frames": [
+			{
+				"bmp": "tramstopkt.png",
+				"count": 4,
+				"h": 21,
+				"w": 32
+			}
+		],
+		"height": 1,
+		"id": "whttramstation.kt101",
+		"influence park": 0,
+		"monthly price": 17,
+		"needs road": false,
+		"price": 550,
+		"rotation aware": true,
+		"targets": [
+			"whttramstation.kt101"
+		],
+		"text": "A place for people to get on the train.",
+		"title": "White Tramway Stop",
+		"type": "railway station",
+		"width": 1,
+		"capacity": 35,
+		"influence passenger train": 40,
+		"ordinal": 50,
+		"category": "traincategory.kt101",
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	}
+]

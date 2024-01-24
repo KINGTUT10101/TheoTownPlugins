@@ -1,0 +1,11 @@
+{
+  "id":"EasyWeatherSelectorManifest.kt101",
+  "version":1.0,
+  "title":"Easy Weather Selector",
+  "text":"A convenient tool for choosing your city's weather without building a large weather station. You can access the weather panel by pressing the sidebar button with a sun. The weather panel can also be found in the settings by selecting 'Open Weather Panel'.",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

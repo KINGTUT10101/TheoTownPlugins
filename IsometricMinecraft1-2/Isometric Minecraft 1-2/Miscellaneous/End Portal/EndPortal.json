@@ -1,0 +1,1 @@
+[{"id":"EndPortal.MC","type":"decoration","width":1,"height":1,"frames":[{"bmp":"EndPortal.png","w":32,"count":8}],"build time":0,"author":"Kingtut 101","title":"End Portal","text":"This mysterious portal will take you to and from the End dimension.","price":50,"needs road":false,"water":0,"power":0,"price factor":0,"category":"MainCategory.MC","ordinal":262,"draw ground":true}]

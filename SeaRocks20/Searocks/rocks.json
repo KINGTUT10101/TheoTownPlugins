@@ -1,0 +1,1 @@
+[{"type":"decoration","height":1,"width":1,"needs land":false,"needs water":true,"author":"Kingtut 101 and Lobby","title":"Sea Rocks","text":"Some rocks for your oceans.","id":"oceanrocks.kt101","price":1000,"frames":[{"bmp":"searocks1.png","handle y":3,"w":32,"h":15,"count":3}],"spawn":{"p":0.01,"height":-175,"radius":9000},"draw ground":true}]

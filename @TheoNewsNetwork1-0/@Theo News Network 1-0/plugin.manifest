@@ -1,0 +1,12 @@
+{
+  "once":true,
+  "id":"TheoNewsNetwork.kt101",
+  "version":1.0,
+  "title":"Theo News Network",
+  "text":"Adds a scrolling news ticker the screen. It can be adjusted in the settings (look in the plug-ins tab).",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

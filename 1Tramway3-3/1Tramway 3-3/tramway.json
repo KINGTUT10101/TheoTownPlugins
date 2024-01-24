@@ -1,0 +1,905 @@
+[
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramkt.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "tram.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"tram.kt101",
+			"tram.kt101",
+			"tram.kt101",
+			"tram.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramkt2.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "tram2.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"tram2.kt101",
+			"tram2.kt101",
+			"tram2.kt101",
+			"tram2.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramkt3.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "tram3.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"tram3.kt101",
+			"tram3.kt101",
+			"tram3.kt101",
+			"tram3.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramkt4.png",
+				"count": 4,
+				"h": 19,
+				"w": 20
+			}
+		],
+		"id": "tram4.kt101",
+		"type": "car",
+		"v2": true,
+		"tail": [
+			"tram4.kt101",
+			"tram4.kt101",
+			"tram4.kt101",
+			"tram4.kt101"
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"build time": 0,
+		"car spawner": [
+			{
+				"targets": [
+					"tramstation.kt101"
+				],
+				"cars": [
+					"tram.kt101",
+					"tram2.kt101",
+					"tram3.kt101",
+					"tram4.kt101"
+				],
+				"count": 2,
+				"radius": 60
+			}
+		],
+		"frames": [
+			{
+				"bmp": "tramstopkt.png",
+				"count": 4,
+				"h": 21,
+				"w": 32
+			}
+		],
+		"height": 1,
+		"id": "tramstation.kt101",
+		"influence park": 0,
+		"monthly price": 15,
+		"needs road": false,
+		"price": 400,
+		"rotation aware": true,
+		"targets": [
+			"tramstation.kt101"
+		],
+		"text": "A place for people to get on the train.",
+		"title": "Tramway Stop",
+		"type": "railway station",
+		"width": 1,
+		"capacity": 25,
+		"influence passenger train": 35,
+		"ordinal": 6,
+		"category": "traincategory.kt101",
+		"separator": true,
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	},
+	{
+		"allow bus": false,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "trambridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 250,
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramrail.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			},
+			{
+				"bmp": "tramrail.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			},
+			{
+				"bmp": "tramrail.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			},
+			{
+				"bmp": "tramrail.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "tramrailsoneway.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 5,
+		"price": 120,
+		"speed": 3.5,
+		"text": "Used to guide your trams in one direction.",
+		"title": "One-Way Tramway Rails (Concrete)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag tram": true,
+			"flag train": true,
+			"flag user0": true
+		},
+		"ordinal": 11,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train1.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train2.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train3.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train4.kt101"
+					}
+				],
+				"p": 0.0001
+			}
+		],
+		"tunnel frames": [
+			{
+				"x": 896,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 912,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			},
+			{
+				"x": 928,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 944,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 10
+					}
+				}
+			]
+		},
+		"overrunable": false,
+		"one way": true
+	},
+	{
+		"allow bus": false,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "tramroadbridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 250,
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramroad.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			},
+			{
+				"bmp": "tramroad.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			},
+			{
+				"bmp": "tramroad.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			},
+			{
+				"bmp": "tramroad.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "tramrailroadoneway.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 5,
+		"price": 120,
+		"speed": 3.5,
+		"text": "Used to guide your trams in one direction.",
+		"title": "One-Way Tramway Rails (Asphalt)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag tram": true,
+			"flag train": true,
+			"flag user0": true
+		},
+		"ordinal": 12,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train1.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train2.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train3.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train4.kt101"
+					}
+				],
+				"p": 0.0001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 10
+					}
+				}
+			]
+		},
+		"tunnel frames": [
+			{
+				"x": 896,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 912,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			},
+			{
+				"x": 928,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 944,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			}
+		],
+		"overrunable": false,
+		"one way": true
+	},
+	{
+		"allow bus": false,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "trambridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 250,
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramrail.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "tramrails.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 5,
+		"price": 120,
+		"speed": 3.5,
+		"text": "Used to guide your trams.",
+		"title": "Tramway Rails (Concrete)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag tram": true,
+			"flag train": true,
+			"flag user0": true
+		},
+		"ordinal": 11,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train1.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train2.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train3.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train4.kt101"
+					}
+				],
+				"p": 0.0001
+			}
+		],
+		"tunnel frames": [
+			{
+				"x": 896,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 912,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			},
+			{
+				"x": 928,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 944,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	},
+	{
+		"allow bus": false,
+		"author": "Kingtut 101",
+		"auto join": false,
+		"bridge frames": [
+			{
+				"bmp": "tramroadbridge.png",
+				"count": 12,
+				"h": 48,
+				"w": 32
+			}
+		],
+		"bridge height": 12,
+		"bridge price": 250,
+		"flag normal": false,
+		"flag tram": true,
+		"flag train": true,
+		"frames": [
+			{
+				"bmp": "tramroad.png",
+				"count": 16,
+				"h": 15,
+				"w": 32
+			}
+		],
+		"id": "tramrailroad.kt101",
+		"influence transportation": 5,
+		"level": 5,
+		"monthly price": 5,
+		"price": 120,
+		"speed": 3.5,
+		"text": "Used to guide your trams.",
+		"title": "Tramway Rails (Asphalt)",
+		"type": "road",
+		"x flags": {
+			"flag all": true,
+			"flag tram": true,
+			"flag train": true,
+			"flag user0": true
+		},
+		"ordinal": 12,
+		"category": "traincategory.kt101",
+		"fun": [
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train1.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train2.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train3.kt101"
+					}
+				],
+				"p": 0.0001
+			},
+			{
+				"condition": {
+					"id": "noisetram.kt101",
+					"max": 999999,
+					"min": 1,
+					"type": "building count"
+				},
+				"actions": [
+					{
+						"type": "play",
+						"id": "train4.kt101"
+					}
+				],
+				"p": 0.0001
+			}
+		],
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		},
+		"tunnel frames": [
+			{
+				"x": 896,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 912,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			},
+			{
+				"x": 928,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7
+			},
+			{
+				"x": 944,
+				"y": 192,
+				"w": 16,
+				"h": 19,
+				"handle y": 7,
+				"handle x": -16
+			}
+		]
+	},
+	{
+		"author": "Kingtut 101",
+		"build time": 0,
+		"frames": [
+			{
+				"bmp": "tramstopdeco.png",
+				"count": 6,
+				"h": 23,
+				"w": 32
+			}
+		],
+		"height": 1,
+		"id": "tramstationdeco.kt101",
+		"influence park": 0,
+		"monthly price": 8,
+		"needs road": false,
+		"price": 300,
+		"text": "Some decorations for your tramway stations.",
+		"title": "Tramway Decoration​s",
+		"type": "decoration",
+		"width": 1,
+		"ordinal": 7,
+		"category": "traincategory.kt101",
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	},
+	{
+		"author": "Kingtut 101",
+		"build time": 0,
+		"frames": [
+			{
+				"bmp": "tramstopdeco2.png",
+				"count": 5,
+				"h": 17,
+				"w": 32
+			}
+		],
+		"height": 1,
+		"id": "tramstationdeco2.kt101",
+		"influence park": 0,
+		"monthly price": 8,
+		"needs road": false,
+		"price": 300,
+		"text": "Some people for your tramway stations.",
+		"title": "Tramway People",
+		"type": "decoration",
+		"width": 1,
+		"ordinal": 9,
+		"category": "traincategory.kt101",
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		}
+	},
+	{
+		"author": "Kingtut 101",
+		"build time": 0,
+		"frames": [
+			{
+				"bmp": "tramstopdeco3.png",
+				"count": 12,
+				"h": 17,
+				"w": 32
+			}
+		],
+		"height": 1,
+		"id": "tramstationdeco3.kt101",
+		"influence park": 0,
+		"monthly price": 8,
+		"needs road": false,
+		"price": 300,
+		"text": "Fences, benches, and signs for your tramway stations.",
+		"title": "Tramway Decorations",
+		"type": "decoration",
+		"width": 1,
+		"ordinal": 8,
+		"category": "traincategory.kt101",
+		"requirement": {
+			"requirements": [
+				{
+					"type": "RANK",
+					"data": {
+						"lvl": 8
+					}
+				}
+			]
+		},
+		"rotation aware": true
+	},
+	{
+		"id": "train1.kt101",
+		"type": "sound",
+		"file": "train1.m4a",
+		"volume": 0.5
+	},
+	{
+		"id": "train2.kt101",
+		"type": "sound",
+		"file": "train2.m4a",
+		"volume": 0.5
+	},
+	{
+		"id": "train3.kt101",
+		"type": "sound",
+		"file": "train3.m4a",
+		"volume": 0.5
+	},
+	{
+		"id": "train4.kt101",
+		"type": "sound",
+		"file": "train4.m4a",
+		"volume": 0.5
+	}
+]

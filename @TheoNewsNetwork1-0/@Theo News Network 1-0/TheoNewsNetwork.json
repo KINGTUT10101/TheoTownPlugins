@@ -1,0 +1,30 @@
+[
+	{
+		"once": true,
+		"id": "TheoNewsNetwork.kt101",
+		"type": "script",
+		"frames": [],
+		"strict lua": true,
+		"script": "#LuaWrapper",
+		"meta": {
+			"luawrapper": {
+				"script": "myscript.lua",
+				"dev": false
+			}
+		}
+	},
+	{
+		"once":true,
+		"type": "script",
+		"frames": [],
+		"id": "genericHeadlines.kt101",
+		"script": "genericHeadlines.lua"
+	},
+	{
+		"once": true,
+		"type": "script",
+		"frames": [],
+		"id": "specialHeadlines.kt101",
+		"script": "specialHeadlines.lua"
+	}
+]

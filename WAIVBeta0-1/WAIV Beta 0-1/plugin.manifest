@@ -1,0 +1,11 @@
+{
+  "id":"WAIV.kt101",
+  "version":1.0,
+  "title":"WAIV",
+  "text":"What Am I Viewing is a GUI plug-in that gives you information about the building you are currently viewing (similar to WAILA from modded Minecraft).",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

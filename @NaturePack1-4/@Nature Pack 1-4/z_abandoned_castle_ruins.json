@@ -1,0 +1,1 @@
+[{"author":"Kingtut 101","draw ground":true,"frames":[{"bmp":"castleruins.png"}],"height":1,"id":"castle_ruins.kt101","price":500,"price factor":0,"spawn":{"height":380,"p":8.0E-4,"radius":50},"title":"Castle Ruins","text":"An old stone tower that was built long ago.","type":"decoration","width":1,"hidden":false,"pickable":true,"destroyable":false,"category":"$cat_decoration00"}]

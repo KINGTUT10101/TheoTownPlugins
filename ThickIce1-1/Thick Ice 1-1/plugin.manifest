@@ -1,0 +1,11 @@
+{
+  "id":"ThickIce.kt101",
+  "version":1.1,
+  "title":"Thick Ice",
+  "text":"A simple terrain plug-in. This ice will not disapear in the summer.",
+  "author":"Kingtut 101",
+  "thumbnail":"iceside.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

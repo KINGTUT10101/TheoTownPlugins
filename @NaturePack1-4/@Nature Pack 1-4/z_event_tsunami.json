@@ -1,0 +1,362 @@
+[
+	{
+		"id": "tsunami.notif",
+		"type": "notification",
+		"text": "A huge wave is heading our way!",
+		"frames": [
+			{
+				"steal": "$anim_people_source01",
+				"frame": 20
+			}
+		],
+		"important": true
+	},
+	{
+		"category": "$cat_disaster00",
+		"frames": [
+			{
+				"x": 1,
+				"y": 1,
+				"w": 1,
+				"h": 1
+			}
+		],
+		"height": 1,
+		"id": "tsunami.kt101",
+		"needs road": false,
+		"power": 0,
+		"price": 0,
+		"text": "A devastating wave of water that will level your cities.  It will disappear on sunny days though.",
+		"title": "Tsunami",
+		"type": "terrain",
+		"water": 0,
+		"width": 1,
+		"workers": 1,
+		"fun": [
+			{
+				"condition": {
+					"inner": [
+						{
+							"id": "tsunami.kt101",
+							"invert": false,
+							"max": 10,
+							"min": 1,
+							"type": "building count"
+						},
+						{
+							"type": "wire",
+							"invert": true
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"y": -1
+					},
+					{
+						"id": "tsunami.kt101",
+						"type": "build",
+						"y": -1
+					}
+				],
+				"p": 0.35
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"id": "tsunami.kt101",
+							"invert": false,
+							"max": 10,
+							"min": 1,
+							"type": "building count"
+						},
+						{
+							"type": "wire",
+							"invert": true
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "disaster",
+						"id": "flooding"
+					}
+				],
+				"p": 0
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"type": "wire",
+							"invert": true
+						},
+						{
+							"type": "road",
+							"invert": true
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove",
+						"x": 1,
+						"ignore": true
+					},
+					{
+						"id": "tsunami.kt101",
+						"type": "build",
+						"x": 1,
+						"ignore": true
+					},
+					{
+						"id": "$water00",
+						"type": "build",
+						"ignore": true
+					},
+					{
+						"id": "$water00",
+						"type": "build",
+						"x": -1,
+						"ignore": true
+					},
+					{
+						"id": "$water00",
+						"type": "build",
+						"x": -2,
+						"ignore": true
+					},
+					{
+						"id": "$water00",
+						"type": "build",
+						"x": -3,
+						"ignore": true
+					},
+					{
+						"type": "remove",
+						"ignore": true
+					}
+				]
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"id": "tsunami.kt101",
+							"invert": false,
+							"max": 9999,
+							"min": 10,
+							"type": "building count"
+						},
+						{
+							"type": "wire",
+							"invert": true
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove"
+					}
+				],
+				"p": 0.15
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"id": "tsunami.kt101",
+							"invert": false,
+							"max": 10,
+							"min": 2,
+							"type": "building count"
+						},
+						{
+							"type": "wire",
+							"invert": true
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove"
+					}
+				],
+				"p": 0.05
+			},
+			{
+				"condition": {
+					"inner": [
+						{
+							"id": "tsunami.kt101",
+							"invert": false,
+							"max": 1,
+							"min": 0,
+							"type": "building count"
+						},
+						{
+							"type": "wire",
+							"invert": true
+						}
+					],
+					"type": "and"
+				},
+				"actions": [
+					{
+						"type": "remove"
+					}
+				],
+				"p": 0.015
+			},
+			{
+				"condition": {
+					"type": "value",
+					"code": "weatherTime",
+					"z": 290373
+				},
+				"actions": [
+					{
+						"type": "remove"
+					}
+				]
+			}
+		],
+		"draw ground": true,
+		"needs water": false,
+		"needs land": false,
+		"pickable": false,
+		"destroyable": false,
+		"removable": false,
+		"max count": 10,
+		"random fun": [
+			{
+				"condition": {
+					"type": "value",
+					"code": "weatherTime",
+					"z": 622697
+				},
+				"actions": [
+					{
+						"type": "remove"
+					},
+					{
+						"type": "disaster",
+						"id": "flooding"
+					},
+					{
+						"type": "build",
+						"id": "tsunami.kt101"
+					},
+					{
+						"id": "tsunami.notif",
+						"type": "notify",
+						"z": 1
+					}
+				],
+				"p": 0
+			},
+			{
+				"condition": {
+					"type": "value",
+					"code": "weatherTime",
+					"z": 849711
+				},
+				"actions": [
+					{
+						"type": "remove"
+					},
+					{
+						"type": "disaster",
+						"id": "flooding"
+					},
+					{
+						"type": "build",
+						"id": "tsunami.kt101"
+					},
+					{
+						"id": "tsunami.notif",
+						"type": "notify",
+						"z": 1
+					}
+				],
+				"p": 0
+			}
+		],
+		"preview frames": [
+			{
+				"bmp": "tsunami_icon.png",
+				"w": 26,
+				"h": 26
+			}
+		],
+		"hidden": true
+	},
+	{
+		"frames": [
+			{
+				"x": 1,
+				"y": 1,
+				"h": 1,
+				"w": 1
+			}
+		],
+		"preview frames": [
+			{
+				"bmp": "tsunami_icon.png",
+				"h": 26,
+				"w": 26
+			}
+		],
+		"fun": [
+			{
+				"actions": [
+					{
+						"type": "set",
+						"id": "weatherTime",
+						"code": 849711,
+						"ignore": true
+					},
+					{
+						"type": "remove",
+						"ignore": true
+					},
+					{
+						"type": "build",
+						"id": "tsunami.kt101",
+						"ignore": true
+					},
+					{
+						"type": "notify",
+						"id": "tsunami.notif",
+						"z": 1
+					}
+				]
+			}
+		],
+		"height": 1,
+		"id": "tsunami_spawner.kt101",
+		"text": "A devastating wave of water that will level your cities.  It will disappear on sunny days though.",
+		"title": "Tsunami",
+		"type": "terrain",
+		"width": 1,
+		"draw ground": true,
+		"category": "$cat_disaster00",
+		"build time": 0,
+		"needs road": false,
+		"water": 0,
+		"power": 0,
+		"pickable": false,
+		"destroyable": false,
+		"removable": false,
+		"moveable": false,
+		"needs land": false,
+		"needs water": false
+	}
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "5GTower.kt101",
+        "type": "public",
+        "author": "Kingtut 101, PCA, and TheoTown",
+        "width": 1,
+        "height": 1,
+		"title": "5G Tower",
+		"text": "Be careful, the effects of 5G signals are very dangerous to the human mind. Building this will enhance your habitants' phone service, but it will also cause horrible illnesses to appear in your city.",
+        "frames": [
+            {
+                "bmp": "5GTower.png"
+            }
+        ]
+    }
+]
