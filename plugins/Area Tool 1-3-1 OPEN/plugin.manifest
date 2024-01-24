@@ -1,0 +1,11 @@
+{
+  "id":"AreaToolPlugin.kt101",
+  "version":1.3,
+  "title":"Area Tool",
+  "text":"Allows you to place any building using the area tool (trees, zones, etc will not work). Just click the button while you're in build mode or select the tool manually to use it with your most recent building. Buildings larger than 1x1 will be placed from their easternmost tile. Premium buildings are not supported.\n\nMinimum version: 1.9.58",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}

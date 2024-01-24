@@ -1,0 +1,109 @@
+[{
+		"privileged": "CODE_GOES_HERE",
+		"id": "ZonableGraveyard.kt101",
+		"width": 1,
+		"height": 1,
+		"type": "body disposal",
+		"frames": [{
+			"bmp": "ZonableGraveyard.png",
+			"w": 32,
+			"count": 6,
+			"frames": 6
+		}],
+		"draw ground": false,
+		"title": "Graveyard",
+		"text": "A small area where your citizens can bury their dead.",
+		"frame alignment area": true,
+		"price": 250,
+		"monthly price": 5,
+		"price factor": 0,
+		"provide aspect body disposal": 850,
+		"influence body disposal": 4,
+		"influence park": 2,
+		"bulldoze price": 45,
+		"build time": 0,
+		"needs road": false,
+		"power": 0,
+		"water": 0,
+		"ordinal": 0,
+		"random frame": true
+	},
+	{
+		"id": "GraveyardDeco.kt101",
+		"width": 1,
+		"height": 1,
+		"type": "decoration",
+		"frames": [{
+			"bmp": "GraveyardDeco.png",
+			"w": 32,
+			"count": 11,
+			"frames": 11
+		}],
+		"title": "Graveyard Decorations",
+		"text": "Decorative tiles for your custom graveyards.",
+		"price": 20,
+		"monthly price": 0,
+		"price factor": 0,
+		"draw water borders": true
+	},
+	{
+		"author": "Kingtut 101",
+		"edge border frames": [{
+			"count": 32,
+			"h": 32,
+			"w": 16,
+			"x": 0,
+			"y": 144
+		}],
+		"edge frames": [{
+			"count": 12,
+			"h": 48,
+			"w": 16,
+			"x": 0,
+			"y": 96
+		}],
+		"frames": [{
+			"bmp": "GraveyardGrass.png",
+			"handle y": 8,
+			"w": 32,
+			"count": 6,
+			"frames": 6
+		}],
+		"border frames": [{
+				"bmp": "GraveyardGrass.png",
+				"handle y": 8,
+				"w": 32,
+				"count": 6,
+				"frames": 6
+			},
+			{
+				"bmp": "GraveyardGrass.png",
+				"handle y": 8,
+				"w": 32,
+				"count": 6,
+				"frames": 6
+			},
+			{
+				"bmp": "GraveyardGrass.png",
+				"handle y": 8,
+				"w": 32,
+				"count": 4,
+				"frames": 4
+			}
+		],
+		"texture": [{
+			"bmp": "GraveyardGrassTexture.png",
+			"w": 32,
+			"count": 2
+		}],
+		"height": 1,
+		"id": "GraveyardGrass.kt101",
+		"text": "Where your citizens can walk to see their loved ones.",
+		"title": "Graveyard Grass",
+		"type": "ground",
+		"water": false,
+		"width": 1,
+		"auto build": false,
+		"shading": false
+	}
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "author": "Kingtut 101",
+    "id": "AreaTool.kt101",
+    "type": "terrain",
+    "title": "Area Tool",
+    "text": "Allows you to place any building using the area tool. Just click the button while you're in build mode or select the tool manually to use it with your most recent building. Buildings larger than 1x1 will be placed from their easternmost tile.",
+    "category": "$cat_root00",
+	"privileged": "CODE_GOES_HERE",
+    "ordinal": 100,
+    "width": 1,
+    "height": 1,
+	"price": 0,
+	"price factor": 0,
+	"monthly price": 0,
+	"frame alignment area": true,
+	"needs water": false,
+	"needs land": false,
+	"needs road": false,
+	"power": 0,
+	"water": 0,
+	"build time": 0,
+	"draw ground": true,
+    "frames":[],
+	"preview frames":[{
+	  "bmp":"AreaToolIcon.png",
+	  "w":26,
+	  "h":26
+	}],
+	"hidden": true,
+	"destroyable": false,
+	"conductive": false,
+    "script": "#LuaWrapper",
+    "meta":{
+      "luawrapper":{
+        "script":"myscript.lua",
+        "dev": false
+      }
+    }
+  }
+]

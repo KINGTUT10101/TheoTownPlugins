@@ -1,0 +1,11 @@
+{
+  "id":"ZonableGraveyards.kt101",
+  "version":1.0,
+  "title":"Zonable Graveyards",
+  "text":"Includes cheap, 1x1 tiles where your citizens can bury their loved ones.",
+  "author":"Kingtut 101",
+  "thumbnail":"thumbnail.png",
+  "category":false,
+  "url":"https://sites.google.com/view/retrocitycenter/home",
+  "multiplayer":true
+}
